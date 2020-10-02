@@ -21,9 +21,6 @@ if len(st1) == len(st2):
   list1.sort()
   list2.sort()
   #check if lists are equal and print the result
-  if list1 == list2:
-    print("Anagram")
-  else:
-    print("Not an anagram")
+  print("Anagram") if list1 == list2 else print("Not an anagram")
 else:
   print("Not an anagram")
